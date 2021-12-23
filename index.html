@@ -68,11 +68,13 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Project Objectives</a></li>
-          <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
+          <li><a class="nav-link scrollto" href="#aboutus">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Project summary</a></li>
+
+          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#departments">Departments</a></li> -->
           <li><a class="nav-link scrollto" href="#doctors">Project Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -88,13 +90,13 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </li> -->
+          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <!-- <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a> -->
+      <a href="#contact" class="appointment-btn scrollto"><span class="d-none d-md-inline">Contact us</a>
 
     </div>
   </header><!-- End Header -->
@@ -103,21 +105,26 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
       <h1>HEalthcare AI</h1>
+      <br />
       <h2> Identifying Alternate Level of Care (ALC) patients using AI</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <p>
+      <h6> Awarded by <a href="https://researchns.ca/">Research Nova Scotia</a></h6>
+      </p>
+
+      <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
+    <!-- ======= About Section ======= -->
+    <section id="aboutus" class="why-us">
       <div class="container">
 
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
-              <h3>What is this project about?</h3>
+              <h3>Objective</h3>
               <p>
                 This project applies various machine learning techniques to hospital administrative data in order to
                 identify ALC patients as early as their admission time,
@@ -135,27 +142,30 @@
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-receipt"></i>
-                    <h4>Feature engineering</h4>
-                    <p>To identify the most significant clinical and patient characteristics associated with patients
-                      requiring ALC</p>
-                  </div>
-                </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Neural network-based algorithms</h4>
-                    <p>To create highly accurate prediction models that can predict an incoming patient’s likelihood of
-                      requiring ALC and their length of stay</p>
+                    <h4>What?</h4>
+                    <p> ALC patients are hospitalized patients who no longer require acute beds, and who are ready to be
+                      discharged to alternative non-acute health care providers, such as home care and long-term care
+                      facilities.</p>
+                    </p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-images"></i>
-                    <h4>Machine learning methods</h4>
-                    <p>To improve bed utilization planning and patient flow within hospitals by designing a decision
-                      support framework for hospital managers </p>
+                    <h4>How?</h4>
+                    <p>We leverage machine learning algorithms to improve bed utilization planning and patient flow
+                      within hospitals by designing a decision
+                      support framework using machine learning algorithms </p>
                   </div>
                 </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>When?</h4>
+                    <p> This is a two-year research project that starts in March 2022. </p>
+                  </div>
+                </div>
+
               </div>
             </div><!-- End .content-->
           </div>
@@ -164,7 +174,7 @@
       </div>
     </section><!-- End Why Us Section -->
 
-    <!-- ======= About Section ======= -->
+    <!-- ======= About Section ======= 
     <section id="about" class="about">
       <div class="container-fluid">
 
@@ -205,74 +215,88 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <h2>Project Summary</h2>
+          <p> 
+            Addressing ALC patient flow issues requires advanced modeling and planning tools that can capture the complexities of a
+            healthcare system. This research project will focus on developing machine learning models and tools that will be able to
+            capture these complexities, thereby enabling healthcare administrators to respond to ALC patient flows more
+            effectively.
+          </p>
         </div>
 
+
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon"><i class="fas fa-heartbeat"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-pills"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="">Shortage of beds in hospitals</a></h4>
+              <p>A lack or shortage of available alternative beds can result in ALC patients remaining in hospitals for
+                significant extended periods, sometimes years. However, This prolonged occupation of acute beds has
+                several negative impacts on both patients and the healthcare system.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-hospital-user"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">Delayed discharge of acute patients</a></h4>
+              <p>Delayed discharge of acute patients can result in a shortage of acute beds—which is the main cause of
+                congested wards and emergency departments—cancelled or delayed elective surgeries, and delays in
+                ambulance offload.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-dna"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4><a href="">ALC patients in Canada</a></h4>
+              <p>The study of ALC patients is important because Canada and Nova Scotia are home to an aging population
+                that will continue to grow in both number and age—albeit with a greater number of life-limiting
+                conditions—due to improvements in medical treatments for chronic conditions.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-wheelchair"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <h4><a href="">Improving healthcare system</a></h4>
+              <p>This project will help improve the healthcare system’s efficiency in Nova Scotia. </p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-notes-medical"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <h4><a href="">Prediction with AI </a></h4>
+              <p>The machine learning models in this project will predict identification of ALC patients, and their
+                length of stay.</p>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="fas fa-heartbeat"></i></div>
+              <h4><a href="">Project collaborators and partners</a></h4>
+              <p> We have collaborators from Saint Mary’s University, Dalhousie University, Nova Scotia Health - Central and Eastern Zones, Dartmouth General Hospital.
+              </p>
+            </div>
+          </div>
+
 
         </div>
 
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Appointment Section ======= -->
+    <!-- ======= Appointment Section ======= 
     <section id="appointment" class="appointment section-bg">
       <div class="container">
 
@@ -342,7 +366,7 @@
       </div>
     </section><!-- End Appointment Section -->
 
-    <!-- ======= Departments Section ======= -->
+    <!-- ======= Departments Section ======= 
     <section id="departments" class="departments">
       <div class="container">
 
@@ -474,7 +498,7 @@
 
           <div class="col-lg-6">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/doctors/enayat.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Dr. Enayat Rajabi</h4>
                 <span>Principal Investigator</span>
@@ -489,9 +513,9 @@
             </div>
           </div>
 
-          <div class="col-lg-10 mt-4 mt-lg-0">
+          <div class="col-lg-6 mt-4 mt-lg-0">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/doctors/majid.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Dr. Majid Taghavi</h4>
                 <span>Co-principal Investigator</span>
@@ -506,9 +530,9 @@
             </div>
           </div>
 
-          <div class="col-lg-10 mt-4">
+          <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/doctors/corrine.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Dr. Corrine McIsaac </h4>
                 <span>Mentor and Co-Investigator</span>
@@ -523,9 +547,9 @@
             </div>
           </div>
 
-          <div class="col-lg-10 mt-4">
+          <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/doctors/unknown-1.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Dr. Peter Vanberkel </h4>
                 <span>Co-investigator</span>
@@ -539,12 +563,12 @@
               </div>
             </div>
           </div>
-          </div>
-          <div class="row">
+        </div>
+        <div class="row">
 
-          <div class="col-lg-10 mt-4">
+          <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/doctors/unknown-1.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Dr. Todd Howlett </h4>
                 <span>Partner</span>
@@ -558,9 +582,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-10 mt-4">
+          <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/doctors/unknown-1.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Mr. Gordon Peckham </h4>
                 <span>Partner</span>
@@ -574,61 +598,61 @@
               </div>
             </div>
           </div>
-        </div>
-        
-        <div class="col-lg-10 mt-4">
-          <div class="member d-flex align-items-start">
-            <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
-            <div class="member-info">
-              <h4>Ms. Jill Flinn </h4>
-              <span>Partner</span>
-              <p>Interim Executive Director of Health Services at NSH Central Zone </p>
-              <!-- <div class="social">
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/unknown-1.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ms. Jill Flinn </h4>
+                <span>Partner</span>
+                <p>Interim Executive Director of Health Services at NSH Central Zone </p>
+                <!-- <div class="social">
                 <a href=""><i class="ri-twitter-fill"></i></a>
                 <a href=""><i class="ri-facebook-fill"></i></a>
                 <a href=""><i class="ri-instagram-fill"></i></a>
                 <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
               </div> -->
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-10 mt-4">
-          <div class="member d-flex align-items-start">
-            <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
-            <div class="member-info">
-              <h4>Mr. Matthew Murphy </h4>
-              <span>Partner</span>
-              <p>Director of Performance, Analytics, and Accountability at the Nova Scotia Health </p>
-              <!-- <div class="social">
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/unknown-1.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Mr. Matthew Murphy </h4>
+                <span>Partner</span>
+                <p>Director of Performance, Analytics, and Accountability at the Nova Scotia Health </p>
+                <!-- <div class="social">
               <a href=""><i class="ri-twitter-fill"></i></a>
               <a href=""><i class="ri-facebook-fill"></i></a>
               <a href=""><i class="ri-instagram-fill"></i></a>
               <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
             </div> -->
+              </div>
             </div>
           </div>
         </div>
-        </div>
         <div class="row">
 
-        <div class="col-lg-10 mt-4">
-          <div class="member d-flex align-items-start">
-            <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
-            <div class="member-info">
-              <h4>Ms. Kim McMahan </h4>
-              <span>Partner</span>
-              <p>Director of Access and Patient Flow for the NSH’s Central Zone </p>
-              <!-- <div class="social">
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/unknown-1.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ms. Kim McMahan </h4>
+                <span>Partner</span>
+                <p>Director of Access and Patient Flow for the NSH’s Central Zone </p>
+                <!-- <div class="social">
             <a href=""><i class="ri-twitter-fill"></i></a>
             <a href=""><i class="ri-facebook-fill"></i></a>
             <a href=""><i class="ri-instagram-fill"></i></a>
             <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
           </div> -->
+              </div>
             </div>
           </div>
-          <div class="col-lg-10 mt-4">
+
+          <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/doctors/unknown-1.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Ms. Jane Nichols </h4>
                 <span>Partner</span>
@@ -646,7 +670,7 @@
         </div>
     </section><!-- End Doctors Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- ======= Frequently Asked Questions Section ======= 
     <section id="faq" class="faq section-bg">
       <div class="container">
 
@@ -825,7 +849,7 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Gallery Section ======= -->
+    <!-- ======= Gallery Section ======= 
     <section id="gallery" class="gallery">
       <div class="container">
 
@@ -915,15 +939,15 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
             consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+            in iste officiis commodi quidem hic quas.</p> -->
         </div>
       </div>
 
       <div>
         <iframe style="border:0; width: 100%; height: 350px;"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2763.0011013671433!2d-60.09568848453888!3d46.17063379404833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b67e38f6fc1fd1d%3A0xdd22556c24e222d6!2sCape%20Breton%20University!5e0!3m2!1sen!2sca!4v1608928258641!5m2!1sen!2sca"
           frameborder="0" allowfullscreen></iframe>
       </div>
 
@@ -935,49 +959,22 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>1250 Grand Lake Dr., Sydney, NS B1P 6L2</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>enayat_rajabi @ cbu .ca</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+1 902 563 1180</p>
               </div>
 
             </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
 
           </div>
 
@@ -991,61 +988,14 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Medilab</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </div>
 
     <div class="container d-md-flex py-4">
 
       <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
+        <!-- <div class="copyright">
           &copy; Copyright <strong><span>Medilab</span></strong>. All Rights Reserved
-        </div>
+        </div> -->
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
@@ -1054,13 +1004,13 @@
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+      <!-- <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
+      </div> -->
     </div>
   </footer><!-- End Footer -->
 
